@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ai drawing result</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" type="image/png" href="icon/0.png">
+</head>
+<body>
+  <div class="container">
+    <div class="image-transition">
+      <img src="png/1.png" alt="Image 1" data-image-number="1" class="active">
+      <img src="png/2.png" alt="Image 2" data-image-number="2">
+      <img src="png/3.png" alt="Image 3" data-image-number="3">
+      <img src="png/4.png" alt="Image 4" data-image-number="4">
+      <img src="png/5.png" alt="Image 5" data-image-number="5">
+      <img src="png/6.png" alt="Image 6" data-image-number="6">
+      <img src="png/7.png" alt="Image 7" data-image-number="7">
+      <img src="png/8.png" alt="Image 8" data-image-number="8">
+      <img src="png/9.png" alt="Image 9" data-image-number="9">
+      <img src="png/10.png" alt="Image 10" data-image-number="10">
+    </div>
+  </div>
+
+  <div id="image-number" class="number-display">
+  </div>
+  
+
+
+  <div class="content">
+    <button onclick="nextImage()"><span></span>Next Image</button>
+    <button onclick="lastImage()"><span></span>Last Image</button>
+    <button onclick="randomImage()"><span></span>Random Image</button>
+    <button onclick="goToBlackThemePage()"><span></span>Black Theme</button>
+    <button onclick="goToLogPage()"><span></span>Log</button>
+  </div>
+  
+
+
+  <script src="js/change picture.js"></script>
+</body>
+</html>
